@@ -1,0 +1,32 @@
+.container {
+  margin-top: 26px;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+.introLeft {
+  width: 40%;
+  color: #655f5f;
+}
+.introLeft h1 {
+  font-weight: 900;
+}
+.introLeft p {
+  font-weight: 500;
+}
+.spanHead {
+  color: #73d88e;
+}
+.update {
+  display: flex;
+  margin-top: 20px;
+}
+.updateItems {
+  margin-right: 20px;
+  width: 30%;
+}
+.introRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

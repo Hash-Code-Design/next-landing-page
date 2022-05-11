@@ -1,0 +1,22 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #e5e5e5;
+  font-family: "Cera Pro";
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Cera Pro";
+  src: url("../public/font/Cera\ Pro\ Bold.otf");
+  src: url("../public//font/Cera\ Pro\ Light.otf");
+  src: url("../public/font/Cera\ Pro\ Medium.otf");
+}

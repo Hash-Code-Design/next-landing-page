@@ -1,0 +1,43 @@
+.container {
+  height: 70px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list {
+  display: flex;
+  list-style: none;
+}
+.list li {
+  padding: 20px;
+  text-transform: capitalize;
+  margin-right: 40px;
+  font-family: "Cera Pro";
+  font-weight: 700;
+  line-height: 30px;
+  color: #c4c4c4;
+  cursor: pointer;
+}
+.list li:hover {
+  color: #73d88e;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  font-family: "Cera Pro";
+  cursor: pointer;
+}
+.logo span {
+  padding: 10px;
+  color: #f9f871;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+}
+.logo h2 {
+  color: #73d88e;
+}
