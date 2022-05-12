@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  align-items: center;
+  margin: 4rem 0;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.aboutLeft {
+  flex: 40%;
+  padding: 0 4rem;
+}
+.aboutRight {
+  display: flex;
+  flex: 60%;
+  background: #e8f9f8;
+  height: 500px;
+  border-radius: 24px;
+}
+
+.aboutLeft p:first-child {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  text-decoration-line: underline;
+  color: #c2edec;
+}
+.aboutLeft h2 {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  width: 60%;
+  font-size: 25px;
+  color: #655f5f;
+}
+
+.aboutLeft p:last-child {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 300;
+  width: 80%;
+  /* font-size: 20px;
+  line-height: 30px; */
+  color: #655f5f;
+}
+
+.aboutLeftList {
+  padding-left: 20px;
+}
+.aboutRightList {
+  margin-top: 100px;
+}

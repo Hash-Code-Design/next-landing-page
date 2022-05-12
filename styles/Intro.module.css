@@ -1,8 +1,8 @@
 .container {
-  margin-top: 26px;
-  height: 80vh;
+  height: calc(100% - 70px);
   display: flex;
   align-items: center;
+  padding: 4rem 4rem;
 }
 .introLeft {
   width: 40%;
@@ -22,11 +22,130 @@
   margin-top: 20px;
 }
 .updateItems {
-  margin-right: 20px;
+  margin-right: 18px;
   width: 30%;
 }
 .introRight {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  height: 420px;
+  align-items: center;
+  position: relative;
+  /* background-color: red; */
+}
+.introRightInner > * {
+  position: absolute;
+}
+.introRightInner > :nth-child(1) {
+  transform: scale(0.6);
+  top: 0;
+  left: 0;
+  z-index: 33;
+}
+.introRightInner > :nth-child(2) {
+  transform: scale(0.6);
+  top: 3px;
+  right: 10px;
+  z-index: 33;
+}
+.introRightInner > :nth-child(3) {
+  transform: scale(0.7);
+  bottom: 0;
+  left: 0;
+  z-index: 33;
+}
+.introRightInner > :nth-child(4) {
+  transform: scale(0.5);
+  bottom: 35px;
+  right: 30px;
+  z-index: 33;
+}
+.introRightInner > :nth-child(5) {
+  transform: scale(0.6);
+  top: 30%;
+  left: 38%;
+  z-index: 33;
+}
+
+.introRightInner > :nth-child(6) {
+  transform: scale(0.73);
+  top: -27px;
+  left: 29px;
+  z-index: 33;
+}
+.introRightInner > :nth-child(7) {
+  transform: scale(0.6);
+  top: -3px;
+  right: -15%;
+  z-index: 33;
+}
+.introRightInner > :nth-child(8) {
+  transform: scale(0.43);
+  top: -53px;
+  left: 90px;
+  z-index: 33;
+}
+.introRightInner > :nth-child(9) {
+  transform: scale(0.63);
+  top: -50px;
+  right: -20px;
+  z-index: 33;
+}
+
+.imgDiv {
+  border: 1px solid rgba(125, 152, 154, 0.28);
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.imgIcon1 {
+  width: 73px;
+  height: 50px;
+  background-color: #f9f871;
+  border-radius: 34px;
+  color: #969696;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  right: -35px;
+  bottom: 2px;
+}
+
+.imgIcon2 {
+  width: 73px;
+  height: 73px;
+  background-color: #c2edec;
+  border-radius: 50%;
+  color: #969696;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: -50px;
+  top: 2px;
+}
+
+.imgIcon3 {
+  width: 73px;
+  height: 73px;
+  background-color: #affdc4;
+  border-radius: 50%;
+  color: white;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: -35px;
+  bottom: 2px;
 }

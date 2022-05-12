@@ -1,7 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
+import About from "../components/About";
 import Intro from "../components/Intro";
 import Navbar from "../components/Navbar";
+import Testimonial from "../components/Testimonial";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -16,6 +18,8 @@ export default function Home() {
       <main className={styles.main}>
         <Navbar />
         <Intro />
+        <About />
+        <Testimonial />
       </main>
     </div>
   );
