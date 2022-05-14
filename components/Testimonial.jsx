@@ -103,87 +103,19 @@ const Testimonial = () => {
             <div className={style.cardDiv}>
               <div className={style.card} key={i}>
                 <div className={style.cardImg}>
-                  <div className={style.img}>
-                    {/* <Image src={Testimonial1} alt="" /> */}
-                    {item.image}
-                  </div>
+                  <div className={style.img}>{item.image}</div>
                 </div>
                 <div className={style.cardText}>
-                  {/* <h1> Seth mcfarlane </h1> */}
                   <h1>{item.name}</h1>
-                  {/* <h2>Front-end developer</h2> */}
+
                   <h2>{item.title}</h2>
-                  <p>
-                    {/* lorem ipsum is a dummy text for empty text slots, i do not
-                  want to make this longer than the previous ones but okay. */}
-                    {item.description}
-                  </p>
+                  <p>{item.description}</p>
                 </div>
               </div>
               <p className={style.cardP}>Read more</p>
             </div>
           );
         })}
-        {/* <div className={style.card}>
-          <div className={style.cardImg}>
-            <div className={style.img}>
-              <Image src={Testimonial1} alt="" />
-            </div>
-          </div>
-          <div className={style.cardText}>
-            <h1> Seth mcfarlane </h1>
-            <h2>Front-end developer</h2>
-            <p>
-              lorem ipsum is a dummy text for empty text slots, i do not want to
-              make this longer than the previous ones but okay.
-            </p>
-          </div>
-        </div>
-        <div className={style.card}>
-          <div className={style.cardImg}>
-            <div className={style.img}>
-              <div className={style.img}>
-                <Image src={Testimonial2} alt="" />
-              </div>
-            </div>
-          </div>
-          <div className={style.cardText}>
-            <h1> Seth mcfarlane </h1>
-            <h2>Front-end developer</h2>
-            <p>
-              lorem ipsum is a dummy text for empty text slots, i do not want to
-              make this longer than the previous ones but okay.
-            </p>
-          </div>
-        </div>
-        <div className={style.card}>
-          <div className={style.cardImg}>
-            <div className={style.img}>
-              <Image src={Testimonial3} alt="" />
-            </div>
-          </div>
-          <div className={style.cardText}>
-            <h1> Seth mcfarlane </h1>
-            <h2>Front-end developer</h2>
-            <p>
-              lorem ipsum is a dummy text for empty text slots, i do not want to
-              make this longer than the previous ones but okay.
-            </p>
-          </div>
-        </div>
-        <div className={style.card}>
-          <div className={style.cardImg}>
-            <Image src={Testimonial4} alt="" />
-          </div>
-          <div className={style.cardText}>
-            <h1> Seth mcfarlane </h1>
-            <h2>Front-end developer</h2>
-            <p>
-              lorem ipsum is a dummy text for empty text slots, i do not want to
-              make this longer than the previous ones but okay.
-            </p>
-          </div>
-        </div> */}
       </Carousel>
     </div>
   );
