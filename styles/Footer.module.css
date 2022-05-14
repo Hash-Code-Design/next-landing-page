@@ -45,7 +45,6 @@
 .footerMenus li {
   font-size: 14px;
   line-height: 28px;
-
   color: #6c6b7c;
 }
 .LastP {
@@ -60,7 +59,8 @@
   .containerItems {
     flex-direction: column;
   }
-
+  .footerMenus li {
+  }
   .footerLeft {
     width: 70%;
     margin: 0 auto;
@@ -71,5 +71,11 @@
 @media screen and (max-width: 550px) {
   .footerRight {
     flex-wrap: wrap;
+  }
+  .footerMenus ul h2 {
+    margin-left: -20px;
+  }
+  .footerMenus li {
+    margin-left: -20px;
   }
 }

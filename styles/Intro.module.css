@@ -168,6 +168,29 @@
 }
 @media screen and (max-width: 500px) {
   .introRight {
-    width: 400px;
+    width: 350px;
+  }
+
+  .introRightInner > :nth-child(5) {
+    transform: scale(0.6);
+    top: 30%;
+    left: 30%;
+    z-index: 33;
+  }
+  .introLeft {
+    width: 100vw;
+  }
+
+  .introRightInner > :nth-child(6) {
+    transform: scale(0);
+  }
+  .introRightInner > :nth-child(7) {
+    transform: scale(0);
+  }
+  .introRightInner > :nth-child(8) {
+    transform: scale(0);
+  }
+  .introRightInner > :nth-child(9) {
+    transform: scale(0);
   }
 }

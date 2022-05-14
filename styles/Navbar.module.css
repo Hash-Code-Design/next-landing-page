@@ -56,10 +56,13 @@
   cursor: pointer;
 }
 @media screen and (max-width: 936px) {
+  .container {
+    padding: 0 1rem;
+  }
   .toggle {
     display: flex;
     color: #655f5f;
-    font-size: 20px;
+    font-size: 25px;
   }
   .list,
   .button {
