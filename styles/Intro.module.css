@@ -1,5 +1,6 @@
 .container {
   height: calc(100% - 70px);
+  justify-content: space-around;
   display: flex;
   align-items: center;
   padding: 4rem 4rem;
@@ -7,6 +8,7 @@
 .introLeft {
   width: 40%;
   color: #655f5f;
+  justify-content: center;
 }
 .introLeft h1 {
   font-weight: 900;
@@ -26,7 +28,7 @@
   width: 30%;
 }
 .introRight {
-  width: 60%;
+  width: 500px;
   display: flex;
   justify-content: center;
   height: 420px;
@@ -58,7 +60,7 @@
 .introRightInner > :nth-child(4) {
   transform: scale(0.5);
   bottom: 35px;
-  right: 30px;
+  right: 8px;
   z-index: 33;
 }
 .introRightInner > :nth-child(5) {
@@ -69,7 +71,7 @@
 }
 
 .introRightInner > :nth-child(6) {
-  transform: scale(0.73);
+  transform: scale(0.69);
   top: -27px;
   left: 29px;
   z-index: 33;
@@ -148,4 +150,24 @@
   position: absolute;
   right: -35px;
   bottom: 2px;
+}
+@media screen and (max-width: 936px) {
+  .container {
+    flex-direction: column;
+  }
+  .introLeft {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .update {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .introRight {
+    width: 400px;
+  }
 }

@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+}
+.cardDiv {
+  border: 1px solid #e5e5e5;
+  padding: 0 1rem;
+  margin: 0 1rem;
+  border-radius: 9px;
+}
+.card {
+  display: flex;
+}
+
+.img {
+  transform: scale(1.2);
+}
+.cardImg {
+  margin-top: 1.4rem;
+  margin-right: 1rem;
+}
+
+.cardText h1 {
+  font-size: 21px;
+  color: #655f5f;
+  margin-bottom: 0;
+}
+.cardText h2 {
+  font-style: normal;
+  font-weight: 300px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 30px;
+  color: #655f5f;
+}
+.cardText p {
+  font-size: 15px;
+  margin-top: 2px;
+  line-height: 20px;
+  color: #655f5f;
+}
+
+.cardP {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  font-size: 14px;
+  color: #73d88e;
+}
+
+@media screen and (max-width: 936px) {
+  .cardDiv {
+    max-width: 65%;
+    margin: 0 auto;
+  }
+}

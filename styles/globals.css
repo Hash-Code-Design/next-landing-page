@@ -16,7 +16,14 @@ a {
 }
 @font-face {
   font-family: "Cera Pro";
-  src: url("../public/font/Cera\ Pro\ Bold.otf");
   src: url("../public//font/Cera\ Pro\ Light.otf");
+}
+@font-face {
+  font-family: "Cera Pro";
+  src: url("../public/font/Cera\ Pro\ Bold.otf");
+}
+
+@font-face {
+  font-family: "Cera Pro";
   src: url("../public/font/Cera\ Pro\ Medium.otf");
 }

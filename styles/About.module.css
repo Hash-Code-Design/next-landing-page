@@ -48,5 +48,28 @@
   padding-left: 20px;
 }
 .aboutRightList {
-  margin-top: 100px;
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 936px) {
+  .container {
+    flex-direction: column;
+  }
+  .aboutLeft {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .aboutLeft h2 {
+    width: 100%;
+    text-align: center;
+  }
+  .aboutLeft p:last-child {
+    width: 100%;
+    text-align: center;
+  }
+  .aboutRight {
+    flex-direction: column;
+    text-align: center;
+  }
 }

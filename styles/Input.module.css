@@ -1,0 +1,24 @@
+.container {
+  margin-top: -5rem;
+}
+.container > input {
+  width: 500px;
+  height: 36px;
+  border: 1px solid #655f5f;
+  border-radius: 8px;
+  margin: 27px 0;
+}
+
+.container input::placeholder {
+  color: #655f5f;
+  font-size: 15px;
+  font-weight: 500;
+
+  padding-left: 15px;
+}
+
+@media screen and (max-width: 936px) {
+  .container > input {
+    width: 350px;
+  }
+}

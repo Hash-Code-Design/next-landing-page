@@ -6,6 +6,9 @@
   align-items: center;
   justify-content: space-between;
 }
+.toggle {
+  display: none;
+}
 .list {
   display: flex;
   list-style: none;
@@ -41,4 +44,25 @@
 }
 .logo h2 {
   color: #73d88e;
+}
+.button {
+  padding: 13px 23px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #08a733;
+  background: #c8fed7;
+  border: 1px solid #08a733;
+  border-radius: 12px;
+  cursor: pointer;
+}
+@media screen and (max-width: 936px) {
+  .toggle {
+    display: flex;
+    color: #655f5f;
+    font-size: 20px;
+  }
+  .list,
+  .button {
+    display: none;
+  }
 }

@@ -38,3 +38,9 @@
   /* width: 40%; */
   color: #655f5f;
 }
+
+@media screen and (max-width: 936px) {
+  .iconDiv {
+    margin: 0 auto;
+  }
+}

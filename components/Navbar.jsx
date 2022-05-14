@@ -1,7 +1,7 @@
 import style from "../styles/Navbar.module.css";
 import Link from "next/link";
-import Button from "./Button";
 
+import { FaBars } from "react-icons/fa";
 const Navbar = () => {
   return (
     <div className={style.container}>
@@ -15,7 +15,13 @@ const Navbar = () => {
         <li>about</li>
         <li>solution</li>
       </ul>
-      <Button text="Sign me up" />
+      <button className={style.button} type="button">
+        Sign me up
+      </button>
+
+      <div className={style.toggle}>
+        <FaBars />
+      </div>
     </div>
   );
 };

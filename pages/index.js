@@ -1,8 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
 import About from "../components/About";
+import Categories from "../components/Categories";
+import Footer from "../components/Footer";
 import Intro from "../components/Intro";
 import Navbar from "../components/Navbar";
+import NewsLetter from "../components/NewsLetter";
 import Testimonial from "../components/Testimonial";
 import styles from "../styles/Home.module.css";
 
@@ -20,6 +23,9 @@ export default function Home() {
         <Intro />
         <About />
         <Testimonial />
+        <Categories />
+        <NewsLetter />
+        <Footer />
       </main>
     </div>
   );
