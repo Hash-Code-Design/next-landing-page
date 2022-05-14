@@ -26,3 +26,14 @@
     margin: 0 auto;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .categories,
+  .categories2 {
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0 auto;
+    width: 70%;
+    margin-bottom: 50px;
+  }
+}
