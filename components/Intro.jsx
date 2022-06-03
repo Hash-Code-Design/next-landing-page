@@ -18,14 +18,16 @@ const Intro = () => {
   return (
     <div className={style.container}>
       <div className={style.introLeft}>
+        <div className={style.blur} style={{}}></div>
         <h1>
           Join our <br />
           <span className={style.spanHead}>community</span> today
         </h1>
-        <p>
+        <h4>
           Meet and interact with other programmers all <br />
           over the world.
-        </p>
+        </h4>
+
         <Button text="Join the community" />
 
         <CommunityUpdate />

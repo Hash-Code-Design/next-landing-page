@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div className={style.container}>
       <div className={style.aboutLeft}>
-        <p>Benefits</p>
+        <h3>Benefits</h3>
         <h2>What’s so great about Hashcode?</h2>
         <p>lorem ipsum is a dummy text for empty text slots</p>
       </div>

@@ -100,15 +100,15 @@ const Testimonial = () => {
       <Carousel {...carouselParams} className={style.container}>
         {data.map((item, i) => {
           return (
-            <div className={style.cardDiv}>
-              <div className={style.card} key={i}>
+            <div className={style.cardDiv} key={i}>
+              <div className={style.card}>
                 <div className={style.cardImg}>
                   <div className={style.img}>{item.image}</div>
                 </div>
                 <div className={style.cardText}>
-                  <h1>{item.name}</h1>
+                  <h3>{item.name}</h3>
 
-                  <h2>{item.title}</h2>
+                  <h2 className={style.titleText}>{item.title}</h2>
                   <p>{item.description}</p>
                 </div>
               </div>

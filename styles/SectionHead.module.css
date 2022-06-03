@@ -8,15 +8,14 @@
 
 .container h3 {
   font-weight: 500;
-  font-size: 23px;
   line-height: 35px;
   text-decoration-line: underline;
   margin-bottom: 0;
   color: #c2edec;
 }
 .container h2 {
+  line-height: 60px;
   font-style: normal;
   font-weight: 700;
-  font-size: 22px;
   color: #655f5f;
 }

@@ -7,7 +7,7 @@ const AboutList = ({ text, heading, icon, color }) => {
         <div style={{ color: color }} className={style.iconDiv}>
           {icon}
         </div>
-        <h2>{heading}</h2>
+        <h4>{heading}</h4>
         <p>{text}</p>
       </div>
     </div>

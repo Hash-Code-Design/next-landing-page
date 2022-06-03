@@ -1,8 +1,17 @@
 import React from "react";
 import style from "../styles/Footer.module.css";
+import Image from "next/image";
+import FooterImg2 from "../public/images/footer1.png";
+import FooterImg1 from "../public/images/footer2.png";
 const Footer = () => {
   return (
     <div className={style.container}>
+      <div className={style.footerImg}>
+        <Image src={FooterImg1} class alt="" />
+      </div>
+      <div className={style.footerImg2}>
+        <Image src={FooterImg2} alt="" />
+      </div>
       <div className={style.containerItems}>
         <div className={style.footerLeft}>
           <h2>Logo</h2>

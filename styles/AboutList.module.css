@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 7px 20px;
+  margin: 45px 20px;
 }
 
 .iconDiv {
@@ -21,9 +21,8 @@
   box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.25);
 }
 
-.aboutList h2 {
+.aboutList h4 {
   font-weight: 700;
-  font-size: 21px;
   line-height: 30px;
   line-height: 3px;
   color: #655f5f;

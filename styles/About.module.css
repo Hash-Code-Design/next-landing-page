@@ -13,15 +13,14 @@
   display: flex;
   flex: 60%;
   background: #e8f9f8;
-  height: 500px;
+
   border-radius: 24px;
 }
 
-.aboutLeft p:first-child {
+.aboutLeft h3:first-child {
   font-family: "Cera Pro";
   font-style: normal;
   font-weight: 700;
-  font-size: 28px;
   text-decoration-line: underline;
   color: #c2edec;
 }
@@ -30,7 +29,6 @@
   font-style: normal;
   font-weight: 700;
   width: 60%;
-  font-size: 25px;
   color: #655f5f;
 }
 
@@ -39,8 +37,6 @@
   font-style: normal;
   font-weight: 300;
   width: 80%;
-  /* font-size: 20px;
-  line-height: 30px; */
   color: #655f5f;
 }
 

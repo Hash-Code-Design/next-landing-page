@@ -1,9 +1,29 @@
 .container {
   background: #efe9f5;
   padding: 4rem 0;
+  position: relative;
 }
 .containerItems {
   display: flex;
+}
+.footerImg {
+  position: absolute;
+  margin-right: 0;
+  left: 5%;
+  top: 7%;
+}
+
+.footerImg2 {
+  position: absolute;
+  margin-right: 0;
+  top: 70%;
+  left: 88%;
+}
+.footerImg > * {
+  transform: scale(0.9);
+}
+.footerImg2 > * {
+  transform: scale(0.9);
 }
 .footerLeft {
   width: 30%;
@@ -12,7 +32,6 @@
 .footerLeft h2 {
   font-size: 36px;
   line-height: 45px;
-
   color: #000000;
 }
 .footerLeft p {
@@ -59,7 +78,8 @@
   .containerItems {
     flex-direction: column;
   }
-  .footerMenus li {
+  .footerImg2 > * {
+    transform: scale(1);
   }
   .footerLeft {
     width: 70%;
