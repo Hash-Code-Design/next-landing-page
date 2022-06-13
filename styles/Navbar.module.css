@@ -22,6 +22,7 @@
   line-height: 30px;
   color: #c4c4c4;
   cursor: pointer;
+  z-index: 1;
 }
 .list li:hover {
   color: #73d88e;
@@ -54,6 +55,7 @@
   border: 1px solid #08a733;
   border-radius: 12px;
   cursor: pointer;
+  z-index: 1;
 }
 @media screen and (max-width: 936px) {
   .container {

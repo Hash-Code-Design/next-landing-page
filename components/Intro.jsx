@@ -17,8 +17,9 @@ import Line4 from "../public/images/line4.png";
 const Intro = () => {
   return (
     <div className={style.container}>
+      <div className={style.landingDivGradient}></div>
       <div className={style.introLeft}>
-        <div className={style.blur} style={{}}></div>
+        <div className={style.blur} style={{ zIndex: 1 }}></div>
         <h1>
           Join our <br />
           <span className={style.spanHead}>community</span> today

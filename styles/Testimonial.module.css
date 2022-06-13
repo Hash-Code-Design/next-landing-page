@@ -1,5 +1,6 @@
 .container {
   display: flex;
+  position: relative;
 }
 .cardDiv {
   border: 1px solid #e5e5e5;
@@ -27,9 +28,8 @@
   font-style: normal;
   font-weight: 300px;
   color: #655f5f;
-
 }
-.titleText{
+.titleText {
   font-size: 18px;
   line-height: 30px;
 }
@@ -46,7 +46,16 @@
   font-size: 14px;
   color: #73d88e;
 }
-
+.blur {
+  position: absolute;
+  width: 479px;
+  height: 494.7px;
+  border-radius: 50%;
+  background: rgba(203, 254, 155, 0.158);
+  filter: blur(10px);
+  right: 0;
+  top: 1550px;
+}
 @media screen and (max-width: 936px) {
   .cardDiv {
     max-width: 65%;

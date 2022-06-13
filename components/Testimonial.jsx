@@ -43,7 +43,7 @@ const data = [
 
 const responsive = {
   desktop: {
-    breakpoint: { max: 1024, min: 3000 },
+    breakpoint: { max: 3000, min: 1024 },
     items: 4,
     slidesToSlide: 4, // optional, default to 1.
   },
@@ -96,7 +96,7 @@ const Testimonial = () => {
         color="#73d88e"
         word="word"
       />
-
+      <div className={style.blur}></div>
       <Carousel {...carouselParams} className={style.container}>
         {data.map((item, i) => {
           return (

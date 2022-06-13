@@ -5,6 +5,23 @@
   /* align-items: center; */
   padding: 4rem 4rem;
 }
+.landingDivGradient {
+  position: absolute;
+  background-image: linear-gradient(
+    to left top,
+    #f9f97177,
+    #f9f9713a,
+    #f9f9711e,
+    #f5f3f3,
+    #f5f3f3,
+    #f5f3f3
+  );
+  width: 663px;
+  height: 800px;
+  top: 0;
+  right: 0;
+  filter: blur(5px);
+}
 .introLeft {
   width: 40%;
   color: #655f5f;
@@ -26,7 +43,6 @@
 .introLeft h1 {
   font-weight: 900;
   line-height: 60px;
-  z-index: 2;
   margin-bottom: 17px;
 }
 .introLeft h4 {
@@ -168,6 +184,11 @@
   bottom: 2px;
 }
 
+@media screen and (min-width: 934px) {
+  .landingDivGradient {
+    height: 100%;
+  }
+}
 @media screen and (max-width: 936px) {
   .container {
     align-items: center;
@@ -182,6 +203,9 @@
   .update {
     width: 70%;
     margin: 0 auto;
+  }
+  .landingDivGradient {
+    top: 25%;
   }
 }
 @media screen and (max-width: 500px) {
