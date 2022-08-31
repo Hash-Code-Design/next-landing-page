@@ -1,4 +1,5 @@
 import style from "../styles/Intro.module.css";
+import React from "react";
 const data = [
   {
     number: "5k+",

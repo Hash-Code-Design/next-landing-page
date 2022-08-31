@@ -1,14 +1,17 @@
 .categories {
   display: flex;
-  justify-content: space-around;
+ 
   align-items: center;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .categories2 {
   display: flex;
-  margin-top: 5rem;
+  margin: 5rem auto;
   justify-content: space-around;
   align-items: center;
+  max-width: 1400px;
 }
 /* @media screen and (max-width: 1161px) {
   .categories,

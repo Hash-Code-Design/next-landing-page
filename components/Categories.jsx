@@ -19,7 +19,7 @@ const Categories = () => {
 
       <div className={style.categories}>
         <Category
-          name="PHP"
+          name="WEB DEVELOPMENT"
           desc="lorem ipsum is a dummy text for empty text slots"
           image={cat1}
           scale="scale(0.55)"
@@ -31,7 +31,7 @@ const Categories = () => {
           top="-20px"
         />
         <Category
-          name="PHP"
+          name="WEB DESIGN"
           desc="lorem ipsum is a dummy text for empty text slots"
           image={cat2}
           scale="scale(0.5)"
@@ -40,7 +40,7 @@ const Categories = () => {
       </div>
       <div className={style.categories2}>
         <Category
-          name="PHP"
+          name="MACHINE LEARNING"
           desc="lorem ipsum is a dummy text for empty text slots"
           image={cat3}
           scale="scale(0.5)"
@@ -49,7 +49,7 @@ const Categories = () => {
           bottom="-123px"
         />
         <Category
-          name="PHP"
+          name="DEVOPS"
           desc="lorem ipsum is a dummy text for empty text slots"
           image={cat4}
           scale="scale(0.5)"

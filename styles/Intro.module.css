@@ -1,8 +1,10 @@
 .container {
   height: calc(100% - 70px);
-  justify-content: space-around;
+  justify-content: space-between;
   display: flex;
   /* align-items: center; */
+  max-width: 1400px;
+  margin: auto;
   padding: 4rem 4rem;
 }
 .landingDivGradient {
@@ -17,7 +19,7 @@
     #f5f3f3
   );
   width: 663px;
-  height: 800px;
+  /* height: 800px; */
   top: 0;
   right: 0;
   filter: blur(5px);
@@ -31,7 +33,7 @@
 .blur {
   position: absolute;
   width: 22rem;
-  height: 14rem;
+  /* height: 14rem; */
   border-radius: 50%;
   background: #e2f4f4;
   filter: blur(72px);
@@ -67,6 +69,7 @@
   height: 420px;
   align-items: center;
   position: relative;
+  align-self: center;
   /* background-color: red; */
 }
 .introRightInner > * {
@@ -76,56 +79,56 @@
   transform: scale(0.6);
   top: 0;
   left: 0;
-  z-index: 33;
+  z-index: -1;
 }
 .introRightInner > :nth-child(2) {
   transform: scale(0.6);
   top: 3px;
   right: 10px;
-  z-index: 33;
+  z-index: -1;
 }
 .introRightInner > :nth-child(3) {
   transform: scale(0.7);
   bottom: 0;
   left: 0;
-  z-index: 33;
+  z-index: -1;
 }
 .introRightInner > :nth-child(4) {
   transform: scale(0.5);
   bottom: 35px;
   right: 8px;
-  z-index: 33;
+  z-index: -1;
 }
 .introRightInner > :nth-child(5) {
   transform: scale(0.6);
   top: 30%;
   left: 38%;
-  z-index: 33;
+  z-index: -1;
 }
 
 .introRightInner > :nth-child(6) {
   transform: scale(0.69);
   top: -27px;
   left: 29px;
-  z-index: 33;
+  z-index: -1;
 }
 .introRightInner > :nth-child(7) {
   transform: scale(0.6);
   top: -3px;
   right: -15%;
-  z-index: 33;
+  z-index: -1;
 }
 .introRightInner > :nth-child(8) {
   transform: scale(0.43);
   top: -53px;
   left: 90px;
-  z-index: 33;
+  z-index: -1;
 }
 .introRightInner > :nth-child(9) {
   transform: scale(0.63);
   top: -50px;
   right: -20px;
-  z-index: 33;
+  z-index: -1;
 }
 .imgDiv {
   border: 1px solid rgba(125, 152, 154, 0.28);
@@ -186,7 +189,7 @@
 
 @media screen and (min-width: 934px) {
   .landingDivGradient {
-    height: 100%;
+    /* height: 100%; */
   }
 }
 @media screen and (max-width: 936px) {
@@ -217,7 +220,7 @@
     transform: scale(0.6);
     top: 30%;
     left: 30%;
-    z-index: 33;
+    z-index: -1;
   }
   .introLeft {
     width: 100vw;

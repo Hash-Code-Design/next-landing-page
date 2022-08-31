@@ -3,6 +3,7 @@ import style from "../styles/Footer.module.css";
 import Image from "next/image";
 import FooterImg2 from "../public/images/footer1.png";
 import FooterImg1 from "../public/images/footer2.png";
+import logo from '../public/images/Asset 3.png'
 const Footer = () => {
   return (
     <div className={style.container}>
@@ -14,7 +15,7 @@ const Footer = () => {
       </div>
       <div className={style.containerItems}>
         <div className={style.footerLeft}>
-          <h2>Logo</h2>
+          <Image src={logo} alt='logo' width='70%' height='70%' />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis
             metus vel diam commodo consequat. Nulla eleifend sem quam

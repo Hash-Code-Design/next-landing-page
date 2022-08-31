@@ -2,7 +2,7 @@ import { BiCodeAlt, BiMessageRoundedDetail } from "react-icons/bi";
 import { SiMinutemailer } from "react-icons/si";
 import style from "../styles/Intro.module.css";
 import Button from "./Button";
-import CommunityUpdate from "./communityUpdate";
+import CommunityUpdate from "./CommunityUpdate";
 import Image from "next/image";
 import Person1 from "../public/images/person1.png";
 import Person2 from "../public/images/person2.png";

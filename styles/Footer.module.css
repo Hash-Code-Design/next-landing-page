@@ -2,9 +2,14 @@
   background: #efe9f5;
   padding: 4rem 0;
   position: relative;
+    
 }
 .containerItems {
   display: flex;
+    max-width: 1400px;
+  margin: auto;
+justify-content: center;
+align-items: center;
 }
 .footerImg {
   position: absolute;
@@ -45,8 +50,8 @@
 }
 .footerRight {
   display: flex;
-  justify-content: center;
-  margin: auto;
+  justify-content: end;
+
 }
 
 .footerMenus {

@@ -24,7 +24,7 @@ const Category = ({
         className={style.catRight}
         style={{ transform: scale, right, bottom, top }}
       >
-        <Image src={image} alt="" />
+        {/* <Image src={image} alt="" /> */}
       </div>
     </div>
   );
