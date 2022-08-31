@@ -26,7 +26,7 @@ const Navbar = () => {
         position: "fixed",
         width: "100%",
         transition: "all",
-        transitionDuration: 200,
+        transitionDuration: '1s',
       }}
     >
       <div className={style.logo}>
